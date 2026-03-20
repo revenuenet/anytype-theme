@@ -1,0 +1,142 @@
+html,
+body,
+* {
+    font-family: "Monaspace Krypton Light", sans-serif !important;
+    font-feature-settings: "ss02" on, "ss04" on, "ss05" on, "ss08" on;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+.textCode,
+.textCode *,
+markupcode {
+    font-family: "Iosevka", "Monaspace Neon", monospace !important;
+    font-feature-settings: "liga" on, "calt" on;
+}
+
+html.themeDark {
+    --theme-base: #0d1117;
+    --theme-surface: #161b22;
+    --theme-overlay: #1e252f;
+    --theme-highlight-high: #2c323e;
+    --theme-highlight-low: #21262d;
+    --theme-text: #e6edf3;
+    --theme-grey1: #9aa4af;
+    --theme-grey2: #6b7280;
+    --theme-green: #00d084;
+    --theme-red: #ff4d4f;
+    --theme-yellow: #f5c21a;
+    --theme-orange: #ff7d00;
+    --theme-blue: #3e8ef7;
+    --theme-purple: #9b5de5;
+    --theme-cyan: #8be9fd;
+    --theme-pink: #db61a2;
+    --theme-grey1-30: rgba(154, 164, 175, 0.3);
+    --theme-grey2-30: rgba(107, 114, 128, 0.3);
+    --theme-green-30: rgba(0, 208, 132, 0.3);
+    --theme-red-30: rgba(255, 77, 79, 0.3);
+    --theme-yellow-30: rgba(245, 194, 26, 0.3);
+    --theme-orange-30: rgba(255, 125, 0, 0.3);
+    --theme-blue-30: rgba(62, 142, 247, 0.3);
+    --theme-purple-30: rgba(155, 93, 229, 0.3);
+    --theme-cyan-30: rgba(139, 233, 253, 0.3);
+    --theme-pink-30: rgba(219, 97, 162, 0.3);
+    --theme-grey1-hover: color-mix(in srgb, var(--theme-grey1) 80%, white);
+    --theme-red-hover: color-mix(in srgb, var(--theme-red) 80%, white);
+    --theme-green-hover: color-mix(in srgb, var(--theme-green) 80%, white);
+    --theme-yellow-hover: color-mix(in srgb, var(--theme-yellow) 80%, white);
+    --theme-orange-hover: color-mix(in srgb, var(--theme-orange) 80%, white);
+    --theme-blue-hover: color-mix(in srgb, var(--theme-blue) 80%, white);
+    --theme-purple-hover: color-mix(in srgb, var(--theme-purple) 80%, white);
+    --theme-cyan-hover: color-mix(in srgb, var(--theme-cyan) 80%, white);
+    --color-text-primary: var(--theme-text);
+    --color-text-secondary: var(--theme-grey1);
+    --color-text-tertiary: var(--theme-grey2);
+    --color-text-inversion: var(--theme-base);
+    --color-shape-primary: var(--theme-surface);
+    --color-shape-secondary: var(--theme-overlay);
+    --color-shape-tertiary: var(--theme-highlight-low);
+    --color-shape-highlight-dark: rgba(0, 208, 132, 0.12);
+    --color-shape-highlight-medium: rgba(0, 208, 132, 0.05);
+    --color-shape-highlight-light: rgba(0, 208, 132, 0.03);
+    --color-control-accent: var(--theme-green);
+    --color-control-active: var(--theme-green-hover);
+    --color-control-inactive: var(--theme-grey1);
+    --color-control-bg: var(--theme-text);
+    --color-bg-primary: var(--theme-base);
+    --color-bg-secondary: var(--theme-surface);
+    --color-bg-loader: rgba(22, 27, 34, 0.8);
+    --color-bg-yellow: var(--theme-yellow);
+    --color-bg-orange: var(--theme-orange);
+    --color-bg-red: var(--theme-red);
+    --color-bg-green: var(--theme-green);
+    --color-bg-blue: var(--theme-blue);
+    --color-bg-purple: var(--theme-purple);
+    --color-bg-cyan: var(--theme-cyan);
+    --color-bg-pink: var(--theme-pink);
+    --color-system-selection: rgba(0, 208, 132, 0.2);
+
+    .textColor-green {
+        color: var(--theme-green) !important;
+    }
+
+    .textColor-red {
+        color: var(--theme-red) !important;
+    }
+
+    .textColor-yellow {
+        color: var(--theme-yellow) !important;
+    }
+
+    .textColor-orange {
+        color: var(--theme-orange) !important;
+    }
+
+    .textColor-blue {
+        color: var(--theme-blue) !important;
+    }
+
+    .textColor-purple {
+        color: var(--theme-purple) !important;
+    }
+
+    .textColor-cyan {
+        color: var(--theme-cyan) !important;
+    }
+
+    .textColor-pink {
+        color: var(--theme-pink) !important;
+    }
+
+    .widget,
+    .widgetSpace * {
+        background-color: var(--theme-overlay) !important;
+        color: var(--theme-text) !important;
+    }
+
+    #vault,
+    #vault .side.top,
+    #vault .side.bottom {
+        background-color: var(--color-shape-secondary) !important;
+    }
+}
+
+.sidebar .pageWrapper {
+    background-color: var(--theme-base);
+}
+
+.subPageWrapper {
+    background-color: var(--theme-base);
+}
+
+.pageFlex {
+    background-color: var(--theme-base);
+}
+
+.resize-h {
+    background-color: var(--theme-base);
+}
+
+.resize-handle {
+    background-color: var(--theme-base);
+}
