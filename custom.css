@@ -140,3 +140,11 @@ html.themeDark {
 .resize-handle {
     background-color: var(--theme-base);
 }
+
+.body {
+    background-color: var(--theme-base);
+}
+
+.sides {
+    background-color: var(--theme-base);
+}
